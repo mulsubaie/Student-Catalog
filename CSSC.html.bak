@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		  <meta charset = "utf-8">
+		  <title>Final Project</title>
+		  <link rel = "stylesheet" type = "text/css" href = "style.css">
+	</head>
+<body>
+<div id="navbar">
+	<h1>CSS Projects</h1>
+
+	<ul>
+	  <li><a href="index.html">Home</a></li>
+	  <li><a  href="HTMLC.html">HTML Projects</a></li>
+	  <li><a class="active" href="CSSC.html">CSS Projects</a></li>
+	  <li><a href="Photoshop.html">Photoshop </a></li>
+	</ul>
+</div>
+
+
+
+
+<div id="content">	
+	<h2> CSS Progects</h2>
+
+	<ul class="list_proj">
+	   <li><a href="#">Project 1</a></li>
+	  <li><a href="#">Project 2</a></li>
+	  <li><a href="#">Project 3</a></li>
+	  <li><a href="Apage.html">Assignment 1</a></li>
+
+	</ul> 
+</div>
+
+
+</body>
+</html>

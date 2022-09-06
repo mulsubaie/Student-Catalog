@@ -1,0 +1,131 @@
+body {
+  background-color:#7f8499;
+}
+
+#navbar, #content{
+	width:130%;
+	margin:15px ;
+}
+
+#content{
+	font-family:Arial;
+	color:lightgray;
+}
+#content p{
+	font-size:25pt;
+}
+
+/* Menu */
+#navbar h1{
+	font-family:arial;
+	color:lightsteelblue;
+	font-size:30pt;
+	text-align:center;
+	margin:0;
+}
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+#navbar li {
+  float: left;
+}
+
+#navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 30px;
+  text-decoration: none;
+}
+
+#navbar li a:hover {
+  background-color: whitesmoke;
+}
+
+#navbar .active {
+  background-color: lightsteelblue;
+}
+
+/* HTML Project page */
+
+.list_proj {
+  font-family:Time;
+}
+
+.list_proj li {
+    margin: 10px;
+    float: left;
+    background-color: #2ac766;
+	border-radius:30px;
+	border:3px solid black;
+    list-style-type: none;
+   position: relative; 
+}
+
+.list_proj li::before {
+    content: '♢';
+    position: absolute;
+	color:#000000;
+    left: 1em;          
+    top:0.5em;
+	font-size: 1.1em;      
+}
+
+.list_proj li a {
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 16px 40px;
+  text-decoration: none;
+}
+
+.list_proj li:nth-child(1){
+	border:2px dashed white;
+	background-color:rgba(153, 0, 255, 0.24);
+}
+.list_proj li:nth-child(2){
+	border:2px dashed white;
+	background-color:rgba(144, 238, 144, 0.521);
+}
+.list_proj li:nth-child(3){
+	border:2px dashed white;
+	background-color:#9c3a98;
+}
+.list_proj li:nth-child(4){
+	border:2px dashed white;
+	background-color:#577dcf8a;
+}
+.list_proj li:nth-child(5){
+	border:2px dashed white;
+	background-color:#cddb98a6;
+}
+
+
+/*PhotoShop*/
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid rgb(255, 253, 253);
+  float: left;
+  width: 200px;
+  background-color:grey;
+}
+
+div.gallery:hover {
+  border: 1px solid rgb(68, 55, 55);
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 20px;
+  text-align: center;
+}
